@@ -145,7 +145,7 @@ const workObserver = new IntersectionObserver((entries, observe) => {
 
     const counterNum = document.querySelectorAll(".counter-numbers");
 
-    const speed = 200;
+    const speed = 100;
 
     counterNum.forEach((curElem) => {
         const updateNumber = () => {
