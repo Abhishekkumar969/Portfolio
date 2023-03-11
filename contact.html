@@ -21,14 +21,14 @@
 
 <body>
     <header class="header ">
-        <img src="images/logo.jpeg" alt="our main logo" class="logo" />
+        <img src="images/logo-min.jpeg" alt="our main logo" class="logo" />
 
         <nav class="navbar">
             <ul class="navbar-lists">
                 <li><a class="navbar-link home-link" href="index.html">Home</a></li>
                 <li><a class="navbar-link about-link" href="about.html">About</a></li>
                 <li><a class="navbar-link service-link" href="service.html">Services</a></li>
-                <li><a class="navbar-link portfolio-link" href="#portfolio">Portfolio</a></li>
+                <li><a class="navbar-link portfolio-link" href="portfolio.html">Portfolio</a></li>
                 <li><a class="navbar-link contact-link" href="contact.html">Contact</a></li>
             </ul>
         </nav>
@@ -40,42 +40,38 @@
     <!--============================
     Our contact us section started  
     =============================-->
-    <section class="section section-contact">
-        <div class="container">
-            <h2 class="common-heading">Contact us</h2>
+    <section class="section section-contact ">
+        <div class="container ">
+            <h2 class="common-heading ">Contact us</h2>
         </div>
-
-
-        <!-- for embed videos  -->
-
-        <!-- <iframe width="560" height="315" src="https://www.youtube.com/embed/mP4eqR6CYIY?start=61" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe> -->
-
 
         <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d22491.1323657005!2d77.41520299264316!3d28.706673513900306!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x390cf100d815bccd%3A0x7367b6a569a08f16!2sRaj%20Nagar%20Extension%2C%20Ghaziabad%2C%20Uttar%20Pradesh!5e1!3m2!1sen!2sin!4v1678437396650!5m2!1sen!2sin"
             width="100%" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
 
 
-        <div class="section-contact-main contact-container">
-            <form action="mailto:abhishekbhardwaj9631@gmail.com" method="post" enctype="text/plain">
-                <div class="grid grid-two-column">
+        <div class="section-contact-main contact-container ">
+            <form action="https://formspree.io/f/xlekljop" method="POST">
+                <!-- action="mailto:abhishekbhardwaj9631@gmail.com " method="post " enctype="text/plain  -->
+                <div class="grid grid-two-column ">
                     <div>
-                        <label for="username"></label>
-                        <input type="text" name="user name" placeholder="User name" id="username" />
+                        <label for="username "></label>
+                        <input type="text " name="user name " placeholder="User name " id="username " required autocomplete="off" />
                     </div>
                     <div>
-                        <label for="email"></label>
-                        <input type="text" name="email" placeholder="demo@gmail.com" id="email" />
+                        <label for="email "></label>
+                        <input type="email" name="email " placeholder="youremail@gmail.com " id="email " required autocomplete="off" />
                     </div>
                 </div>
-                <div><label for="subject"></label>
-                    <input type="text" name="subject" placeholder="subject" id="subject">
+                <div><label for="subject "></label>
+                    <input type="text " name="subject " placeholder="subject " id="subject " required autocomplete="off" />
                 </div>
                 <div>
-                    <label for="textarea"></label>
-                    <textarea name="textarea" id="textarea" cols="30" rows="10"></textarea>
+                    <label for="textarea "></label>
+                    <textarea name="message" id="textarea " cols="30 " rows="10 " required minlength="5" autocomplete="off" placeholder="Write your message"></textarea>
                 </div>
                 <div>
                     <input type="submit" name="submit" id="submit" class="btn" value="send message">
+
                 </div>
             </form>
         </div>
@@ -149,7 +145,7 @@
                     <div>
                         <p>
                              <span><ion-icon name="location-outline"></ion-icon></span>
-                             Pune, India
+                             Ghaziabad, India
                          </p>
                     </div>
                     <div>
