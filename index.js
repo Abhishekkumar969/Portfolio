@@ -23,6 +23,8 @@ p_btns.addEventListener("click", (e) => {
     const p_btn_clicked = e.target;
     console.log(p_btn_clicked);
 
+    if (!p_btn_clicked.classList.contains("p-btn")) return;
+
     p_btn.forEach((curElem) => curElem.classList.remove("p-btn-active"));
 
     p_btn_clicked.classList.add("p-btn-active");
