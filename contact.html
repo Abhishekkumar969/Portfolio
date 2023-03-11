@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css" integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w==" crossorigin="anonymous" referrerpolicy="no-referrer"
+    />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/style.css">
+    <script defer src="index.js"></script>
+
+    <title>Contact Page</title>
+</head>
+
+<body>
+    <header class="header ">
+        <img src="images/logo.jpeg" alt="our main logo" class="logo" />
+
+        <nav class="navbar">
+            <ul class="navbar-lists">
+                <li><a class="navbar-link home-link" href="index.html">Home</a></li>
+                <li><a class="navbar-link about-link" href="about.html">About</a></li>
+                <li><a class="navbar-link service-link" href="service.html">Services</a></li>
+                <li><a class="navbar-link portfolio-link" href="#portfolio">Portfolio</a></li>
+                <li><a class="navbar-link contact-link" href="contact.html">Contact</a></li>
+            </ul>
+        </nav>
+        <div class="mobile-navbar-btn">
+            <ion-icon name="menu-outline" class="mobile-nav-icon"></ion-icon>
+            <ion-icon name="close-outline" class="mobile-nav-icon"></ion-icon>
+        </div>
+    </header>
+    <!--============================
+    Our contact us section started  
+    =============================-->
+    <section class="section section-contact">
+        <div class="container">
+            <h2 class="common-heading">Contact us</h2>
+        </div>
+
+
+        <!-- for embed videos  -->
+
+        <!-- <iframe width="560" height="315" src="https://www.youtube.com/embed/mP4eqR6CYIY?start=61" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe> -->
+
+
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d22491.1323657005!2d77.41520299264316!3d28.706673513900306!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x390cf100d815bccd%3A0x7367b6a569a08f16!2sRaj%20Nagar%20Extension%2C%20Ghaziabad%2C%20Uttar%20Pradesh!5e1!3m2!1sen!2sin!4v1678437396650!5m2!1sen!2sin"
+            width="100%" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+
+
+        <div class="section-contact-main contact-container">
+            <form action="mailto:abhishekbhardwaj9631@gmail.com" method="post" enctype="text/plain">
+                <div class="grid grid-two-column">
+                    <div>
+                        <label for="username"></label>
+                        <input type="text" name="user name" placeholder="User name" id="username" />
+                    </div>
+                    <div>
+                        <label for="email"></label>
+                        <input type="text" name="email" placeholder="demo@gmail.com" id="email" />
+                    </div>
+                </div>
+                <div><label for="subject"></label>
+                    <input type="text" name="subject" placeholder="subject" id="subject">
+                </div>
+                <div>
+                    <label for="textarea"></label>
+                    <textarea name="textarea" id="textarea" cols="30" rows="10"></textarea>
+                </div>
+                <div>
+                    <input type="submit" name="submit" id="submit" class="btn" value="send message">
+                </div>
+            </form>
+        </div>
+    </section>
+    <!--============================
+         Our Footer section started  
+    =============================-->
+    <footer class="section-footer section footer">
+        <div class="container grid grid-four-column">
+            <div class="f-about">
+                <h3>About</h3>
+                <p>
+                    Lorem ipsum dolor sit amet. ipsum dolor sit amet. ipsum dolor sit amet consectetur adipisicing elit. Est ad nam nostrum fuga praesentium totam at voluptatem enim?
+                </p>
+            </div>
+            <!-- end -->
+            <div class="f-links">
+                <h3>Links</h3>
+
+                <li>
+                    <ion-icon name="arrow-forward-outline"></ion-icon>
+                    <a href="/index.html">Home</a>
+                </li>
+                <li>
+                    <ion-icon name="arrow-forward-outline"></ion-icon>
+                    <a href="/about.html">About</a>
+                </li>
+                <li>
+                    <ion-icon name="arrow-forward-outline"></ion-icon>
+                    <a href="/service.html">Services</a>
+                </li>
+                <li>
+                    <ion-icon name="arrow-forward-outline"></ion-icon>
+                    <a href="#">Portfolio</a>
+                </li>
+                <li>
+                    <ion-icon name="arrow-forward-outline"></ion-icon>
+                    <a href="/contact.html">Contact</a>
+                </li>
+
+            </div>
+            <div class="f-services">
+                <h3>Services</h3>
+
+                <li>
+                    <span><ion-icon name="arrow-forward-outline"></ion-icon></span>
+                    <a href="/index.html">Home</a>
+                </li>
+                <li>
+                    <span><ion-icon name="arrow-forward-outline"></ion-icon></span>
+                    <a href="/about.html">About</a>
+                </li>
+                <li>
+                    <span><ion-icon name="arrow-forward-outline"></ion-icon></span>
+                    <a href="/service.html">Services</a>
+                </li>
+                <li>
+                    <span><ion-icon name="arrow-forward-outline"></ion-icon></span>
+                    <a href="#">Portfolio</a>
+                </li>
+                <li>
+                    <span><ion-icon name="arrow-forward-outline"></ion-icon></span>
+                    <a href="https://abhishekbhardwaj3070.page.link/abhishekbhardwaj3070">Youtube</a>
+                </li>
+
+            </div>
+            <!-- end  -->
+            <div class="f-address">
+                <h3>Have a Questions?</h3>
+                <address>
+                    <div>
+                        <p>
+                             <span><ion-icon name="location-outline"></ion-icon></span>
+                             Pune, India
+                         </p>
+                    </div>
+                    <div>
+                        <p>
+                             <span><ion-icon name="call-outline"></ion-icon></span>
+                             <a href="tel:+91 969-389-4812">+919693894812</a>                         
+                         </p>
+                    </div>
+                    <div>
+                        <p>
+                             <span><ion-icon name="mail-outline"></ion-icon></span>
+                             <a href="mailto:dubeyji9631@gmail.com">dubeyji9631@gmail.com</a>                         
+                         </p>
+                    </div>
+                </address>
+            </div>
+        </div>
+        <div class="container">
+            <div class="f-social-icons">
+                <a href="https://github.com/Abhishekkumar969" target="_blank">
+                    <ion-icon class="icons" name="logo-github"></ion-icon>
+                </a>
+                <a href="https://www.instagram.com/i_am_abhishekbhardwaj/" target="_blank">
+                    <ion-icon class="icons" name="logo-instagram"></ion-icon>
+                </a>
+
+                <a href="https://abhishekbhardwaj3070.page.link/abhishekbhardwaj3070" target="_blank">
+                    <ion-icon class="icons" name="logo-youtube"></ion-icon>
+                </a>
+
+            </div>
+
+
+            <div class="f-credits">
+                <p>Copyright ©2023 All rights reserved | This template is made by<a href="https://www.instagram.com/i_am_abhishekbhardwaj/" target="_blank"> Abhishek kumar</a> </p>
+            </div>
+        </div>
+    </footer>
+    <!--============================
+         our js section started  
+    =============================-->
+    <script src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js "></script>
+
+    <script type="module " src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js "></script>
+    <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js "></script>
+</body>
+
+</html>
