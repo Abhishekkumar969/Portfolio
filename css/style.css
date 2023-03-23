@@ -708,7 +708,7 @@
     =========================== */
     
     .section-freelancing {
-        background-image: url("../images/freelancing03.png");
+        background-image: url("../images/freelancing03-min.png");
         background-repeat: no-repeat;
         background-size: 100%;
         background-attachment: fixed;
@@ -880,6 +880,10 @@
         animation: water-wave 3s linear infinite;
         cursor: pointer;
     }
+    
+    .header .logo {
+        width: 14%;
+    }
     /*==========================
        media queries
 ===========================*/
@@ -904,6 +908,9 @@
             left: 1.69rem;
             width: 90%;
         } */
+        .section-freelancing {
+            background-size: 100%;
+        }
     }
     /* for 1200px */
     
@@ -923,10 +930,13 @@
         .section-resume .resume-data-subsection .grid-two-column {
             grid-template-columns: 1fr 1fr;
         }
+        .section-freelancing {
+            background-size: 100%;
+        }
     }
     /* for 980px */
     
-    @media (max-width: 980px) {
+    @media (max-width: 61.25em) {
         html {
             font-size: 50%;
         }
@@ -1013,12 +1023,11 @@
         /* .img-overlay .overlay {
             left: 1.69rem;
         } */
+        .section-freelancing {
+            background-size: 100%;
+        }
     }
-    
-    .header .logo {
-        width: 14%;
-    }
-    /* below 790px */
+    /* for 784px  */
     
     @media(max-width:49em) {
         .container {
@@ -1071,6 +1080,9 @@
         /* .img-overlay .overlay {
             left: 1.6rem;
         } */
+        .section-freelancing {
+            background-size: 100%;
+        }
     }
     /* below 560px */
     
@@ -1137,6 +1149,10 @@
         /* .img-overlay .overlay {
             left: 1.69rem;
         } */
+        .section-freelancing {
+            background-size: 100%;
+            height: 200%;
+        }
     }
     /* 450 px  */
     
@@ -1144,9 +1160,10 @@
         .img-overlay .common-heading {
             font-size: 3rem;
         }
-        /* .img-overlay .overlay {
-            left: 1rem;
-        } */
+        .section-freelancing {
+            background-image: url(../images/freelancing360\ \ 155-min.png);
+            background-size: 100%;
+        }
     }
     /* 360 px */
     
@@ -1157,5 +1174,9 @@
         .img-overlay .overlay {
             left: 0.8rem;
         } */
+        }
+        .section-freelancing {
+            background-image: url(../images/freelancing360\ \ 155-min.png);
+            background-size: 100%;
         }
     }
