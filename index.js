@@ -49,10 +49,10 @@ p_btns.addEventListener("click", (e) => {
 
 
 new Swiper(".mySwiper", {
-    slidesPerView: 2,
+    slidesPerView: 1,
     spaceBetween: 30,
     autoplay: {
-        delay: 2500,
+        delay: 3000,
         disableOnInteraction: false,
     },
     pagination: {
@@ -69,7 +69,7 @@ const myJsmedia = (widthSize) => {
         });
     } else {
         new Swiper(".mySwiper", {
-            slidesPerView: 2,
+            slidesPerView: 1,
             spaceBetween: 30,
         });
     }
