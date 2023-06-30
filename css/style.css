@@ -912,7 +912,7 @@
                 display: flex;
                 justify-content: center;
                 align-items: center;
-                padding-top: 20rem;
+                /* padding-top: 20rem; */
             }
         }
         /* for 1200px */
@@ -922,7 +922,7 @@
                 display: flex;
                 justify-content: center;
                 align-items: center;
-                padding-top: 20rem;
+                /* padding-top: 20rem; */
             }
             html {
                 font-size: 56.25%;
@@ -1003,7 +1003,7 @@
             }
             /* hero section  */
             .section-hero h1 {
-                font-size: 6rem;
+                font-size: 4rem;
                 line-height: 1.05;
             }
             /* service section  */
@@ -1040,7 +1040,7 @@
                 display: flex;
                 justify-content: center;
                 align-items: center;
-                padding-top: 30rem;
+                /* padding-top: 30rem; */
             }
         }
         /* for 784px  */
@@ -1050,13 +1050,13 @@
                 width: 37%;
             }
             .btn {
-                font-size: 3.8rem;
+                font-size: 1.5rem;
             }
             .bio-image {
                 display: flex;
                 justify-content: center;
                 align-items: center;
-                padding-top: 30rem;
+                /* padding-top: 30rem; */
             }
             .container {
                 max-width: 71rem;
@@ -1065,7 +1065,7 @@
                 grid-template-columns: 1fr;
             }
             .section-hero-data {
-                gap: 4rem;
+                /* gap: 4rem; */
                 align-items: center;
             }
             .hero-heading {
@@ -1073,7 +1073,7 @@
                 text-align: center;
             }
             .hero-para {
-                font-size: 3rem;
+                font-size: 2rem;
                 text-align: center;
                 margin-top: 2rem;
             }
@@ -1158,10 +1158,10 @@
             }
             /* portfolio */
             .p-btns {
-                gap: 2.8rem;
+                gap: 1.8rem;
             }
             .btn {
-                padding: 1rem 2rem;
+                padding: 1rem 1rem;
             }
             .counter-numbers {
                 font-size: 3.2rem;
