@@ -131,10 +131,9 @@
         .section {
             padding: 9rem 0;
         }
-        
-        .section-biodata {
+        /* .section-biodata {
             padding-top: 22rem;
-        }
+        } */
         
         .container {
             max-width: 140rem;
@@ -254,9 +253,14 @@
         /* ==========================
       bio section start 
     =========================== */
+        /* .bio-data {
+            margin-top: 17rem;
+        }       
+        */
         
         .bio-image img {
-            width: 66%;
+            /* margin-top: 17rem; */
+            width: 87%;
             box-shadow: -2rem -2rem 0 0 var(--helper);
             display: inline-block;
         }
@@ -914,10 +918,16 @@
                 align-items: center;
                 /* padding-top: 20rem; */
             }
+            .bio-data {
+                margin-top: 11rem;
+            }
         }
         /* for 1200px */
         
         @media (max-width:75em) {
+            .bio-data {
+                margin-top: 11rem;
+            }
             .bio-image {
                 display: flex;
                 justify-content: center;
@@ -955,7 +965,7 @@
             .mobile-navbar-btn {
                 display: block;
                 z-index: 9999;
-                border: 3px solid var(--black);
+                /* border: 3px solid var(--black); */
                 color: var(--black);
             }
             .mobile-nav-icon {
@@ -1046,6 +1056,9 @@
         /* for 784px  */
         
         @media(max-width:49em) {
+            .bio-data {
+                margin-top: 4rem;
+            }
             .header .logo {
                 width: 37%;
             }
@@ -1091,10 +1104,11 @@
             grid-row: 2/3 ;
             or */
                 grid-row: 2;
-                margin-top: 3.2rem;
+                margin-top: -14.8rem;
             }
             .section-biodata .bio-image img {
-                width: 50%;
+                margin-top: 20rem;
+                width: 100%;
             }
             /* portfolio section  */
             .section-portfolio .grid-three-column {
@@ -1135,10 +1149,9 @@
             /* text-align: center; */
             /* margin-bottom: 2rem; */
         }
-        
-        .section-biodata {
+        /* .section-biodata {
             padding-top: 12rem;
-        }
+        } */
         
         .bio-image {
             display: flex;
